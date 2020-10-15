@@ -4,12 +4,6 @@
 
 int main()
 {
-    QByteArray envPath = qgetenv("PATH");
-    envPath += ";D:\\Program\\OpencvStudy\\dll";
-
-    qputenv("PATH", envPath);
-    qunsetenv("PATH");
-
     // 读取图片
     // IMREAD_UNCHANGED (<0) 表示加载原图，不做任何改变
     // IMREAD_GRAYSCALE (0)表示把原图作为灰度图像加载进来

@@ -6,4 +6,8 @@ SUBDIRS += \
     FilterImage \
     OperateImage \
     MixedImage \
-    BrightContrastImage
+    BrightContrastImage \
+    ErcodeImage \
+    BlurImage \
+    CannyImage \
+    VideoImage
