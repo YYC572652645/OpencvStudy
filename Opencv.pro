@@ -10,4 +10,6 @@ SUBDIRS += \
     ErcodeImage \
     BlurImage \
     CannyImage \
-    VideoImage
+    VideoImage \
+    DrawImage \
+    TrackbarImage

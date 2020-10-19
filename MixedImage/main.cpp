@@ -31,11 +31,6 @@ void mixedImage(const QImage& first, double alpha, const QImage &last, double be
 
 int main()
 {
-    QByteArray envPath = qgetenv("PATH");
-    envPath += ";" + QCoreApplication::applicationDirPath().toLatin1() + "/../dll";
-
-    qputenv("PATH", envPath);
-
     cv::Mat matFirst= cv::imread("first.jpg", cv::IMREAD_COLOR);
     cv::Mat matLast = cv::imread("last.jpg", cv::IMREAD_COLOR);
 
